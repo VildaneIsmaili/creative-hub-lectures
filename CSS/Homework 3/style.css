@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, sans-serif;
+
+
+}
+
+.pricing-section {
+    border: 2px solid black;
+    padding: 20px;
+    width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    background:white;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 260px;
+    border: 2px solid black;
+    padding: 20px; 
+    background-color: #f6fbff;
+}
+
+.price {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 15px 0;
+    background: rgb(55, 55, 170);
+    color: white;
+}
+
+.features {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    background: white
+}
+
+.features p {
+    border-bottom: 1px solid #ccc;
+    padding: 6px 0;
+    margin: 0;
+  
+}
+
+.features p:last-child {
+    border-bottom: none;
+}
+
+button {
+    padding: 8px 18px;
+    border: 2px solid black;
+    background:rgb(55, 55, 170);
+    color: white;}
+
+.studio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.note {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: left;
+    background: #eaf6ff;
+    margin-top: 20px;
+  
+}
+/* Exercise 2 */
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    width: 900px;
+    height: 310px;
+    margin: 20px auto;
+}
+
+.left {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    
+}
+
+.sidebar {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    vertical-align: top;
+    border: 2px solid black;
+    padding: 15px;
+    margin-left: 20px;
+    background: #f6fbff;}
+    
+.post1{
+    border: 2px solid black;
+    padding: 10px;
+    padding-top: 5px;
+    background: #f5f5f5;
+    height: 130px;
+    overflow: hidden;
+    margin: auto;
+    background: #f6fbff;
+}
+.post2{
+    border: 2px solid black;
+    padding: 10px;
+    padding-top: 5px;
+    background: #f5f5f5;
+    height: 130px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 15px;
+    background: #f6fbff;
+}
+
+
+   
+.meta {
+    color: #666;
+    font-size: 14px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+button {
+    padding: 8px 15px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+/*Exercise 3*/
+.containers {
+    width: 900px;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+
+}
+
+.subtitle {
+    color: #555;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+.layout {
+    margin: 20px 0;
+    font-size: 0;
+}
+
+.big-image {
+    display: inline-block;
+    width: 60%;
+    height: 253px;
+    border: 2px solid black;
+    vertical-align: top;
+    margin: auto;
+   ;
+}
+
+.right-column {
+    display: inline-block;
+    width: 34%;
+    vertical-align: top;
+    margin: auto;
+}
+
+.small-image {
+    height: 115px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.big-image img,
+.small-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom-text {
+    border: 2px solid black;
+    padding: 15px;
+    background:#f6fbff;
+}
+
+.layout * {
+    font-size: 16px;
+}
+/*Exercise 4*/
+
+.container {
+width: 900px;
+margin: 10px auto;
+height: fit-content;
+border: 2px solid #333;
+background: white;
+overflow: hidden;
+}
+
+.topbar {
+padding: 20px;
+padding-top: 0px;
+border-bottom: 2px solid #333;
+font-size: 14px;
+
+}
+.left {
+    float: left;}
+    
+.right {
+float:right;
+
+}
+
+
+
+.logo-section {
+text-align: center;
+padding: 5px;
+border-bottom: 2px solid #333;
+}
+
+.logo-section h1 {
+letter-spacing: 4px;
+font-size: 32px;
+}
+
+.logo-section p {
+margin-top: 8px;
+color: #555;
+}
+
+.navbar {
+text-align: center;
+gap: 30px;
+padding: 20px 0;
+border-bottom: 2px solid #333;
+}
+
+.navbar a {
+text-decoration: none;
+color: black;
+border: 1px solid #333;
+padding: 8px 20px;
+}
+
+.announcement {
+margin: 30px;
+padding-left: 10px;
+border: 2px dashed #333;
+margin-bottom: 3px;
+margin-top: 10px;
+}
+
+.announcement h2 {
+margin-bottom: 10px;
+}

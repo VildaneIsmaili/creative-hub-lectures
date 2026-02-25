@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+.container{
+    width: 1440px;
+    margin:auto;
+
+}
+hr{
+    color:rgb(46, 45, 45);
+
+}
+.person{
+    margin: 0px 3px;
+    margin-top: 35px;
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    font-size: 25px;
+    margin: 0px 3px;
+    margin-top: 35px;
+
+}
+img{
+height: 220px;
+}
+h1{
+    font-weight: lighter;
+}
+h4{
+    font-weight: lighter;
+    color: rgb(94, 88, 88);
+}
+button {
+    font-size: 25px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    background: #ddd;
+    
+}
